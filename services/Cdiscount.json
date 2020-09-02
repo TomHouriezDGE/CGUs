@@ -1,0 +1,17 @@
+{
+    "name": "Cdiscount",
+    "documents": {
+        "commercialTerms": {
+            "location": "https://clients.cdiscount.com/simple/cgv.aspx",
+            "contentSelector": "div.acDes"
+        },
+        "tos": {
+            "location": "https://i2.cdscdn.com/resources/imagesok/cgu/mkp/cgu_acheteurs_mp_cdiscount.pdf",
+            "contentSelector": ""
+        },
+        "cookiesPolicy": {
+            "location": "https://www.cdiscount.com/vie-privee-et-cookies.html",
+            "contentSelector": "div.scContent"
+        }
+    }
+}

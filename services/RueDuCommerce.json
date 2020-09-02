@@ -1,0 +1,17 @@
+{
+    "name": "Rue Du Commerce",
+    "documents": {
+        "commercialTerms": {
+            "location": "https://www.rueducommerce.fr/info/mentions-legales/cgv",
+            "contentSelector": "div.content"
+        },
+        "tos": {
+            "location": "https://www.rueducommerce.fr/info/mentions-legales/cgu-gm",
+            "contentSelector": "div.content"
+        },
+        "privacy": {
+            "location": "https://www.rueducommerce.fr/info/mentions-legales/confidentialite",
+            "contentSelector": "div.content"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Vinted",
+    "documents": {
+        "tos": {
+            "location": "https://www.vinted.fr/terms_and_conditions",
+            "contentSelector": "section#content"
+        },
+        "privacy": {
+            "location": "https://www.vinted.com/privacy-policy",
+            "contentSelector": "div.body-content"
+        }
+    }
+}

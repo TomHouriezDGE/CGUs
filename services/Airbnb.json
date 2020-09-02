@@ -1,0 +1,17 @@
+{
+    "name": "Airbnb",
+    "documents": {
+        "privacy": {
+            "location": "https://www.airbnb.fr/terms/privacy_policy",
+            "contentSelector": "div.space-top-6.space-16.text-wrap.col-sm-12.col-md-9.col-lg-10"
+        },
+        "tos": {
+            "location": "https://www.airbnb.fr/terms",
+            "contentSelector": "div.space-top-6.space-16.text-wrap.col-sm-12.col-md-9.col-lg-10"
+        },
+        "cookiesPolicy": {
+            "location": "https://www.airbnb.fr/terms/cookie_policy",
+            "contentSelector": "div.space-top-6.space-16.text-wrap.col-sm-12.col-md-9.col-lg-10"
+        }
+    }
+}

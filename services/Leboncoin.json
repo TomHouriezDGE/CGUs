@@ -1,0 +1,17 @@
+{
+    "name": "Leboncoin",
+    "documents": {
+        "tos": {
+            "location": "https://www.leboncoin.fr/dc/cgu",
+            "contentSelector": "div._16HCL styles_Fetched__1u4Mw"
+        },
+        "commercialTerms": {
+            "location": "https://www.leboncoin.fr/dc/cgv/0",
+            "contentSelector": "main"
+        },
+        "privacy": {
+            "location": "https://www.leboncoin.fr/dc/cookies/",
+            "contentSelector": "div._16HCL styles_Fetched__1u4Mw"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Veepee",
+    "documents": {
+        "commercialTerms": {
+            "location": "https://www.veepee.fr/cgv/fr-FR/Conditions_Generales_de_Vente.pdf?CountryCode=FR",
+            "contentSelector": ""
+        },
+        "tos": {
+            "location": "https://www.veepee.fr/marketplace/CGU.pdf",
+            "contentSelector": ""
+        }
+    }
+}

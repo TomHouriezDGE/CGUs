@@ -1,0 +1,13 @@
+{
+    "name": "Booking",
+    "documents": {
+        "tos": {
+            "location": "https://www.booking.com/content/terms.fr.html",
+            "contentSelector": "div.static_content"
+        },
+        "privacy": {
+            "location": "https://www.booking.com/content/privacy.fr.html",
+            "contentSelector": "div.static_content"
+        }
+    }
+}

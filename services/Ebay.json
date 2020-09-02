@@ -1,0 +1,17 @@
+{
+    "name": "Ebay",
+    "documents": {
+        "tos": {
+            "location": "https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement",
+            "contentSelector": "div.article_body"
+        },
+        "privacy": {
+            "location": "https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy",
+            "contentSelector": "div.article_body"
+        },
+        "tos": {
+            "location": "https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice",
+            "contentSelector": "div.article_body"
+        }
+    }
+}

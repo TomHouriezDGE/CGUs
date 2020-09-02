@@ -1,0 +1,13 @@
+{
+    "name": "Rakuten",
+    "documents": {
+        "tos": {
+            "location": "https://fr.shopping.rakuten.com/newhelp/conditions-generales/",
+            "contentSelector": "div.box-pm-big"
+        },
+        "privacy": {
+            "location": "https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/",
+            "contentSelector": "div.help-box-bg"
+        }
+    }
+}

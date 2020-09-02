@@ -1,0 +1,21 @@
+{
+    "name": "Fnac",
+    "documents": {
+        "commercialTerms": {
+            "location": "https://www.fnac.com/Help/cgv-fnac#bl=footer",
+            "contentSelector": "div.helpcontent"
+        },
+        "tos": {
+            "location": "https://www.fnac.com/Help/cgv-fnac-marketplace#bl=footer",
+            "contentSelector": "div.helpcontent"
+        },
+        "privacy": {
+            "location": "https://www.fnac.com/Help/donneesPersonnelles#bl=footer",
+            "contentSelector": "div.helpcontent"
+        },
+        "cookiesPolicy": {
+            "location": "https://www.fnac.com/Help/cookies#bl=footer",
+            "contentSelector": "div.helpcontent"
+        }
+    }
+}

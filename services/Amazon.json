@@ -1,0 +1,9 @@
+{
+    "name": "Amazon",
+    "documents": {
+        "tos": {
+            "location": "https://www.amazon.fr/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=201909000",
+            "contentSelector": "div.cs-help-content"
+        }
+    }
+}

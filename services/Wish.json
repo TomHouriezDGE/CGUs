@@ -1,0 +1,17 @@
+{
+    "name": "Wish",
+    "documents": {
+        "tos": {
+            "location": "https://www.wish.com/eu-terms",
+            "contentSelector": "div.HelpPage__TextWrapper-sc-1yfasoo-1 jSsyjj"
+        },
+        "privacy": {
+            "location": "https://www.wish.com/privacy_policy",
+            "contentSelector": "div.HelpPage__TextWrapper-sc-1yfasoo-1 jSsyjj"
+        },
+        "cookiesPolicy": {
+            "location": "https://www.wish.com/cookie_policy",
+            "contentSelector": "div.HelpPage__TextWrapper-sc-1yfasoo-1 jSsyjj"
+        }
+    }
+}
