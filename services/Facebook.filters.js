@@ -20,13 +20,15 @@ export function cleanUrls(document) {
   const links = document.querySelectorAll('[href*="https://l.facebook.com/l.php?"],[href*="http://l.facebook.com/l.php?"]');
 
   links.forEach(link => {
-    link.href = link.href.replace(/&h=\S*/, '');
+    link.href = decodeURIComponent(link.href.replace(/&h=\S*/, '').replace(/(\S*)\?u=(\S*)/, '$2'));
   });
 }
 
 export function numberListCorrectly(document) {
   document.querySelectorAll('ol')
     .forEach(listToClean => Array.from(listToClean.children)
-      .filter(element => element.tagName !== 'LI')
+      .filter(element => element.tagName !== 'LI' && element.tagName !== 'OL')
       .map(element => element.remove()));
+
+  Array.from(document.querySelectorAll('ol > ol')).map(element => element.previousSibling.appendChild(element));
 }
