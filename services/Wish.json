@@ -3,15 +3,15 @@
     "documents": {
         "Terms of Service": {
             "fetch": "https://www.wish.com/eu-terms",
-            "select": "div.HelpPage__TextWrapper-sc-1yfasoo-1 jSsyjj"
+            "select": "div.HelpPage__TextWrapper-sc-1yfasoo-1"
         },
         "Privacy Policy": {
             "fetch": "https://www.wish.com/privacy_policy",
-            "select": "div.HelpPage__TextWrapper-sc-1yfasoo-1 jSsyjj"
+            "select": "div.HelpPage__TextWrapper-sc-1yfasoo-1"
         },
         "Trackers Policy": {
             "fetch": "https://www.wish.com/cookie_policy",
-            "select": "div.HelpPage__TextWrapper-sc-1yfasoo-1 jSsyjj"
+            "select": "div.HelpPage__TextWrapper-sc-1yfasoo-1"
         }
     }
 }
