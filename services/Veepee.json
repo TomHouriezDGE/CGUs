@@ -6,8 +6,7 @@
             "select": ""
         },
         "Terms of Service": {
-            "fetch": "https://www.veepee.fr/marketplace/CGU.pdf",
-            "select": ""
+            "fetch": "https://www.veepee.fr/marketplace/CGU.pdf"
         }
     }
 }
