@@ -1,17 +1,23 @@
 {
     "name": "Leboncoin",
     "documents": {
-        "tos": {
-            "location": "https://www.leboncoin.fr/dc/cgu",
-            "contentSelector": "div._16HCL styles_Fetched__1u4Mw"
+        "Terms of Service": {
+            "fetch": "https://www.leboncoin.fr/dc/cgu",
+            "filter": [
+                "removeNoise"
+            ],
+            "select": "main[role=main]"
         },
-        "commercialTerms": {
-            "location": "https://www.leboncoin.fr/dc/cgv/0",
-            "contentSelector": "main"
+        "Commercial Terms": {
+            "fetch": "https://www.leboncoin.fr/dc/cgv",
+            "select": "main#main"
         },
-        "privacy": {
-            "location": "https://www.leboncoin.fr/dc/cookies/",
-            "contentSelector": "div._16HCL styles_Fetched__1u4Mw"
+        "Privacy Policy": {
+            "fetch": "https://www.leboncoin.fr/dc/cookies/",
+            "filter": [
+                "removeNoise"
+            ],
+            "select": "main[role=main]"
         }
     }
 }

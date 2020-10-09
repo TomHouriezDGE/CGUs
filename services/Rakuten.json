@@ -1,13 +1,16 @@
 {
     "name": "Rakuten",
     "documents": {
-        "tos": {
-            "location": "https://fr.shopping.rakuten.com/newhelp/conditions-generales/",
-            "contentSelector": "div.box-pm-big"
+        "Terms of Service": {
+            "fetch": "https://fr.shopping.rakuten.com/newhelp/conditions-generales/",
+            "select": "div.box-pm-big"
         },
-        "privacy": {
-            "location": "https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/",
-            "contentSelector": "div.help-box-bg"
+        "Privacy Policy": {
+            "fetch": "https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/",
+            "filter": [
+                "removeForm"
+            ],
+            "select": "div.help-box-bg"
         }
     }
 }

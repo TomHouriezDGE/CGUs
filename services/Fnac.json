@@ -1,21 +1,21 @@
 {
     "name": "Fnac",
     "documents": {
-        "commercialTerms": {
-            "location": "https://www.fnac.com/Help/cgv-fnac#bl=footer",
-            "contentSelector": "div.helpcontent"
+        "Commercial Terms": {
+            "fetch": "https://www.fnac.com/Help/cgv-fnac#bl=footer",
+            "select": "div.content"
         },
-        "tos": {
-            "location": "https://www.fnac.com/Help/cgv-fnac-marketplace#bl=footer",
-            "contentSelector": "div.helpcontent"
+        "Terms of Service": {
+            "fetch": "https://www.fnac.com/Help/cgv-fnac-marketplace#bl=footer",
+            "select": "div.content"
         },
-        "privacy": {
-            "location": "https://www.fnac.com/Help/donneesPersonnelles#bl=footer",
-            "contentSelector": "div.helpcontent"
+        "Privacy Policy": {
+            "fetch": "https://www.fnac.com/Help/donneesPersonnelles#bl=footer",
+            "select": "div.content"
         },
-        "cookiesPolicy": {
-            "location": "https://www.fnac.com/Help/cookies#bl=footer",
-            "contentSelector": "div.helpcontent"
+        "Trackers Policy": {
+            "fetch": "https://www.fnac.com/Help/cookies#bl=footer",
+            "select": "div.content"
         }
     }
 }

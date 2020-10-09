@@ -1,17 +1,20 @@
 {
     "name": "Ebay",
     "documents": {
-        "tos": {
-            "location": "https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement",
-            "contentSelector": "div.article_body"
+        "Terms of Service": {
+            "fetch": "https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259",
+            "filter": [
+                "removePreviousTerms"
+              ],
+            "select": "div.article_body"
         },
-        "privacy": {
-            "location": "https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy",
-            "contentSelector": "div.article_body"
+        "Privacy Policy": {
+            "fetch": "https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy",
+            "select": "div.article_body"
         },
         "tos": {
-            "location": "https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice",
-            "contentSelector": "div.article_body"
+            "fetch": "https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice",
+            "select": "div.article_body"
         }
     }
 }

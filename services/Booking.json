@@ -1,13 +1,19 @@
 {
     "name": "Booking",
     "documents": {
-        "tos": {
-            "location": "https://www.booking.com/content/terms.fr.html",
-            "contentSelector": "div.static_content"
+        "Terms of Service": {
+            "fetch": "https://www.booking.com/content/terms.fr.html",
+            "filter": [
+              "removePrintButton"  
+            ],
+            "select": "div.static_content"
         },
-        "privacy": {
-            "location": "https://www.booking.com/content/privacy.fr.html",
-            "contentSelector": "div.static_content"
+        "Privacy Policy": {
+            "fetch": "https://www.booking.com/content/privacy.fr.html",
+            "filter": [
+              "removePrintButton"  
+            ],
+            "select": "div.static_content"
         }
     }
 }
