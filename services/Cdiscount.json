@@ -3,7 +3,7 @@
     "documents": {
         "Commercial Terms": {
             "fetch": "https://clients.cdiscount.com/simple/cgv.aspx",
-            "contentSelector": "div.acDes"
+            "select": "div.acDes"
         },
         "Terms of Service": {
             "fetch": "https://i2.cdscdn.com/resources/imagesok/cgu/mkp/cgu_acheteurs_mp_cdiscount.pdf"

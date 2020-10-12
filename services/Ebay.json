@@ -7,14 +7,6 @@
                 "removePreviousTerms"
               ],
             "select": "div.article_body"
-        },
-        "Privacy Policy": {
-            "fetch": "https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy",
-            "select": "div.article_body"
-        },
-        "tos": {
-            "fetch": "https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice",
-            "select": "div.article_body"
         }
     }
 }
