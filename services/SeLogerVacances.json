@@ -1,0 +1,12 @@
+{
+  "name": "SeLogerVacances",
+  "documents": {
+    "Terms of Service": {
+        "fetch": "https://vacances.seloger.com/conditions-generales-utilisation",
+        "filter": [
+            "removeNavTools"
+        ],
+        "select": "div#root"
+    }
+  }
+}

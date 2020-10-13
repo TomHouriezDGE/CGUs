@@ -1,0 +1,9 @@
+{
+  "name": "CleVacances",
+  "documents": {
+    "Terms of Service": {
+        "fetch": "https://www.clevacances.com/fr/conditions-generales-utilisation",
+        "select": "section.content-container"
+    }
+  }
+}

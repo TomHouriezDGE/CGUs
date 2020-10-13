@@ -1,0 +1,17 @@
+{
+  "name": "Abritel",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.abritel.fr/legal/conditions-generales",
+      "select": "div.ContentArea"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.abritel.fr/legal/cookies",
+      "select": "div.ContentArea"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.abritel.fr/legal/politique-des-donnees-personnelles",
+      "select": "div.ContentArea"
+    }
+  }
+}
